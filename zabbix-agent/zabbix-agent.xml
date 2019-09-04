@@ -45,7 +45,7 @@ The max disks supported by UNRAID + cache has been pre-added. (There is no need 
     <Volume>
       <HostDir>/mnt/cache/</HostDir>
       <ContainerDir>/mnt/cache</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk1</HostDir>
@@ -55,147 +55,147 @@ The max disks supported by UNRAID + cache has been pre-added. (There is no need 
     <Volume>
       <HostDir>/mnt/disk2</HostDir>
       <ContainerDir>/mnt/disk2</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk3</HostDir>
       <ContainerDir>/mnt/disk3</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk4</HostDir>
       <ContainerDir>/mnt/disk4</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk5/</HostDir>
       <ContainerDir>/mnt/disk5</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk6</HostDir>
       <ContainerDir>/mnt/disk6</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk7</HostDir>
       <ContainerDir>/mnt/disk7</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk8</HostDir>
       <ContainerDir>/mnt/disk8</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk9</HostDir>
       <ContainerDir>/mnt/disk9</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk10</HostDir>
       <ContainerDir>/mnt/disk10</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk11</HostDir>
       <ContainerDir>/mnt/disk11</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk12</HostDir>
       <ContainerDir>/mnt/disk12</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk13</HostDir>
       <ContainerDir>/mnt/disk13</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk14</HostDir>
       <ContainerDir>/mnt/disk14</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk15</HostDir>
       <ContainerDir>/mnt/disk15</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk16</HostDir>
       <ContainerDir>/mnt/disk16</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk17</HostDir>
       <ContainerDir>/mnt/disk17</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk18</HostDir>
       <ContainerDir>/mnt/disk18</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk19</HostDir>
       <ContainerDir>/mnt/disk19</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk20</HostDir>
       <ContainerDir>/mnt/disk20</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk21</HostDir>
       <ContainerDir>/mnt/disk21</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk22</HostDir>
       <ContainerDir>/mnt/disk22</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk23</HostDir>
       <ContainerDir>/mnt/disk23</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk24</HostDir>
       <ContainerDir>/mnt/disk24</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk25</HostDir>
       <ContainerDir>/mnt/disk25</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk26</HostDir>
       <ContainerDir>/mnt/disk26</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk27</HostDir>
       <ContainerDir>/mnt/disk27</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk28</HostDir>
       <ContainerDir>/mnt/disk28</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk29</HostDir>
       <ContainerDir>/mnt/disk29</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/disk30</HostDir>
       <ContainerDir>/mnt/disk30</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
   </Data>
   <Environment>
@@ -225,35 +225,35 @@ The max disks supported by UNRAID + cache has been pre-added. (There is no need 
   <Config Name="ZBX_SERVER_HOST" Target="ZBX_SERVER_HOST" Default="" Mode="" Description="Container Variable: ZBX_SERVER_HOST" Type="Variable" Display="always" Required="false" Mask="false">ZBX_SERVER_HOST</Config>
   <Config Name="ZBX_TLSCONNECT" Target="ZBX_TLSCONNECT" Default="" Mode="" Description="Container Variable: ZBX_TLSCONNECT" Type="Variable" Display="always" Required="false" Mask="false">unencrypted</Config>
   <Config Name="ZBX_TLSACCEPT" Target="ZBX_TLSACCEPT" Default="" Mode="" Description="Container Variable: ZBX_TLSACCEPT" Type="Variable" Display="always" Required="false" Mask="false">unencrypted</Config>
-  <Config Name="Cache" Target="/mnt/cache" Default="" Mode="rw" Description="Container Path: /mnt/cache" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/</Config>
+  <Config Name="Cache" Target="/mnt/cache" Default="" Mode="ro" Description="Container Path: /mnt/cache" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/</Config>
   <Config Name="Disk 1" Target="/mnt/disk1" Default="" Mode="ro" Description="Container Path: /mnt/disk1" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1</Config>
-  <Config Name="Disk 2" Target="/mnt/disk2" Default="" Mode="rw" Description="Container Path: /mnt/disk2" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk2</Config>
-  <Config Name="Disk 3" Target="/mnt/disk3" Default="" Mode="rw" Description="Container Path: /mnt/disk3" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk3</Config>
-  <Config Name="Disk 4" Target="/mnt/disk4" Default="" Mode="rw" Description="Container Path: /mnt/disk4" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk4</Config>
-  <Config Name="Disk 5" Target="/mnt/disk5" Default="" Mode="rw" Description="Container Path: /mnt/disk5" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk5/</Config>
-  <Config Name="Disk 6" Target="/mnt/disk6" Default="" Mode="rw" Description="Container Path: /mnt/disk6" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk6</Config>
-  <Config Name="Disk 7" Target="/mnt/disk7" Default="" Mode="rw" Description="Container Path: /mnt/disk7" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk7</Config>
-  <Config Name="Disk 8" Target="/mnt/disk8" Default="" Mode="rw" Description="Container Path: /mnt/disk8" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk8</Config>
-  <Config Name="Disk 9" Target="/mnt/disk9" Default="" Mode="rw" Description="Container Path: /mnt/disk9" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk9</Config>
-  <Config Name="Disk 10" Target="/mnt/disk10" Default="" Mode="rw" Description="Container Path: /mnt/disk10" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk10</Config>
-  <Config Name="Disk 11" Target="/mnt/disk11" Default="" Mode="rw" Description="Container Path: /mnt/disk11" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk11</Config>
-  <Config Name="Disk 12" Target="/mnt/disk12" Default="" Mode="rw" Description="Container Path: /mnt/disk12" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk12</Config>
-  <Config Name="Disk 13" Target="/mnt/disk13" Default="" Mode="rw" Description="Container Path: /mnt/disk13" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk13</Config>
-  <Config Name="Disk 14" Target="/mnt/disk14" Default="" Mode="rw" Description="Container Path: /mnt/disk14" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk14</Config>
-  <Config Name="Disk 15" Target="/mnt/disk15" Default="" Mode="rw" Description="Container Path: /mnt/disk15" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk15</Config>
-  <Config Name="Disk 16" Target="/mnt/disk16" Default="" Mode="rw" Description="Container Path: /mnt/disk16" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk16</Config>
-  <Config Name="Disk 17" Target="/mnt/disk17" Default="" Mode="rw" Description="Container Path: /mnt/disk17" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk17</Config>
-  <Config Name="Disk 18" Target="/mnt/disk18" Default="" Mode="rw" Description="Container Path: /mnt/disk18" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk18</Config>
-  <Config Name="Disk 19" Target="/mnt/disk19" Default="" Mode="rw" Description="Container Path: /mnt/disk19" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk19</Config>
-  <Config Name="Disk 20" Target="/mnt/disk20" Default="" Mode="rw" Description="Container Path: /mnt/disk20" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk20</Config>
-  <Config Name="Disk 21" Target="/mnt/disk21" Default="" Mode="rw" Description="Container Path: /mnt/disk21" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk21</Config>
-  <Config Name="Disk 22" Target="/mnt/disk22" Default="" Mode="rw" Description="Container Path: /mnt/disk22" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk22</Config>
-  <Config Name="Disk 23" Target="/mnt/disk23" Default="" Mode="rw" Description="Container Path: /mnt/disk23" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk23</Config>
-  <Config Name="Disk 24" Target="/mnt/disk24" Default="" Mode="rw" Description="Container Path: /mnt/disk24" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk24</Config>
-  <Config Name="Disk 25" Target="/mnt/disk25" Default="" Mode="rw" Description="Container Path: /mnt/disk25" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk25</Config>
-  <Config Name="Disk 26" Target="/mnt/disk26" Default="" Mode="rw" Description="Container Path: /mnt/disk26" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk26</Config>
-  <Config Name="Disk 27" Target="/mnt/disk27" Default="" Mode="rw" Description="Container Path: /mnt/disk27" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk27</Config>
-  <Config Name="Disk 28" Target="/mnt/disk28" Default="" Mode="rw" Description="Container Path: /mnt/disk28" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk28</Config>
-  <Config Name="Disk 29" Target="/mnt/disk29" Default="" Mode="rw" Description="Container Path: /mnt/disk29" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk29</Config>
-  <Config Name="Disk 30" Target="/mnt/disk30" Default="" Mode="rw" Description="Container Path: /mnt/disk30" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk30</Config>
+  <Config Name="Disk 2" Target="/mnt/disk2" Default="" Mode="ro" Description="Container Path: /mnt/disk2" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk2</Config>
+  <Config Name="Disk 3" Target="/mnt/disk3" Default="" Mode="ro" Description="Container Path: /mnt/disk3" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk3</Config>
+  <Config Name="Disk 4" Target="/mnt/disk4" Default="" Mode="ro" Description="Container Path: /mnt/disk4" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk4</Config>
+  <Config Name="Disk 5" Target="/mnt/disk5" Default="" Mode="ro" Description="Container Path: /mnt/disk5" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk5/</Config>
+  <Config Name="Disk 6" Target="/mnt/disk6" Default="" Mode="ro" Description="Container Path: /mnt/disk6" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk6</Config>
+  <Config Name="Disk 7" Target="/mnt/disk7" Default="" Mode="ro" Description="Container Path: /mnt/disk7" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk7</Config>
+  <Config Name="Disk 8" Target="/mnt/disk8" Default="" Mode="ro" Description="Container Path: /mnt/disk8" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk8</Config>
+  <Config Name="Disk 9" Target="/mnt/disk9" Default="" Mode="ro" Description="Container Path: /mnt/disk9" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk9</Config>
+  <Config Name="Disk 10" Target="/mnt/disk10" Default="" Mode="ro" Description="Container Path: /mnt/disk10" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk10</Config>
+  <Config Name="Disk 11" Target="/mnt/disk11" Default="" Mode="ro" Description="Container Path: /mnt/disk11" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk11</Config>
+  <Config Name="Disk 12" Target="/mnt/disk12" Default="" Mode="ro" Description="Container Path: /mnt/disk12" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk12</Config>
+  <Config Name="Disk 13" Target="/mnt/disk13" Default="" Mode="ro" Description="Container Path: /mnt/disk13" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk13</Config>
+  <Config Name="Disk 14" Target="/mnt/disk14" Default="" Mode="ro" Description="Container Path: /mnt/disk14" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk14</Config>
+  <Config Name="Disk 15" Target="/mnt/disk15" Default="" Mode="ro" Description="Container Path: /mnt/disk15" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk15</Config>
+  <Config Name="Disk 16" Target="/mnt/disk16" Default="" Mode="ro" Description="Container Path: /mnt/disk16" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk16</Config>
+  <Config Name="Disk 17" Target="/mnt/disk17" Default="" Mode="ro" Description="Container Path: /mnt/disk17" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk17</Config>
+  <Config Name="Disk 18" Target="/mnt/disk18" Default="" Mode="ro" Description="Container Path: /mnt/disk18" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk18</Config>
+  <Config Name="Disk 19" Target="/mnt/disk19" Default="" Mode="ro" Description="Container Path: /mnt/disk19" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk19</Config>
+  <Config Name="Disk 20" Target="/mnt/disk20" Default="" Mode="ro" Description="Container Path: /mnt/disk20" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk20</Config>
+  <Config Name="Disk 21" Target="/mnt/disk21" Default="" Mode="ro" Description="Container Path: /mnt/disk21" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk21</Config>
+  <Config Name="Disk 22" Target="/mnt/disk22" Default="" Mode="ro" Description="Container Path: /mnt/disk22" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk22</Config>
+  <Config Name="Disk 23" Target="/mnt/disk23" Default="" Mode="ro" Description="Container Path: /mnt/disk23" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk23</Config>
+  <Config Name="Disk 24" Target="/mnt/disk24" Default="" Mode="ro" Description="Container Path: /mnt/disk24" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk24</Config>
+  <Config Name="Disk 25" Target="/mnt/disk25" Default="" Mode="ro" Description="Container Path: /mnt/disk25" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk25</Config>
+  <Config Name="Disk 26" Target="/mnt/disk26" Default="" Mode="ro" Description="Container Path: /mnt/disk26" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk26</Config>
+  <Config Name="Disk 27" Target="/mnt/disk27" Default="" Mode="ro" Description="Container Path: /mnt/disk27" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk27</Config>
+  <Config Name="Disk 28" Target="/mnt/disk28" Default="" Mode="ro" Description="Container Path: /mnt/disk28" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk28</Config>
+  <Config Name="Disk 29" Target="/mnt/disk29" Default="" Mode="ro" Description="Container Path: /mnt/disk29" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk29</Config>
+  <Config Name="Disk 30" Target="/mnt/disk30" Default="" Mode="ro" Description="Container Path: /mnt/disk30" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk30</Config>
 </Container>
