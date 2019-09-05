@@ -19,7 +19,7 @@ Please view the guide available on the forums.</Overview>
   <Category/>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://github.com/Conmyster/unraid-docker-templates/blob/master/Zabbix-Logo.png</Icon>
+  <Icon>https://github.com/Conmyster/unraid-docker-templates/raw/master/zabbix-agent/images/Zabbix-Logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
