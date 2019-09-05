@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>zabbix-agent</Name>
+  <Name>zabbix-agent2.0</Name>
   <Repository>zabbix/zabbix-agent:latest</Repository>
   <Registry>https://hub.docker.com/r/zabbix/zabbix-agent</Registry>
   <Network>host</Network>
@@ -9,203 +9,43 @@
   <Privileged>true</Privileged>
   <Support/>
   <Project/>
-  <Overview>This container is just the Zabbix Agent for UNRAID. Any Zabbix Server configuration/setup will need to be completed by yourself. &#xD;
-[br]&#xD;
+  <Overview>This container is just the Zabbix Agent for UNRAID. Any Zabbix Server configuration/setup will need to be completed by yourself. [br]&#xD;
 To set this container up just edit the following:&#xD;
-"ZBX_HOSTNAME" to your unraid server hostname&#xD;
-"ZBX_SERVER_HOST" to the IP address of your Zabbix Server&#xD;
+"HOSTNAME" to your unraid server hostname&#xD;
+"ZABBIX SERVER/PROXY IP" to the IP address of your Zabbix Server or Proxy&#xD;
 [br]&#xD;
-The max disks supported by UNRAID + cache has been pre-added. (There is no need to remove any disks you do not have)</Overview>
+If you would like Zabbix to monitor disks as well as system resources you will need to add each one as a path manually.&#xD;
+Please view the guide available on the forums.</Overview>
   <Category/>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://github.com/Conmyster/unraid-docker-templates/blob/master/images/Zabbix-Logo.png</Icon>
+  <Icon>https://github.com/Conmyster/unraid-docker-templates/blob/master/Zabbix-Logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1567590354</DateInstalled>
+  <DateInstalled>1567674191</DateInstalled>
   <DonateText/>
   <DonateLink/>
-<Beta>False</Beta>
-<Category>Network:Management Tools:</Category>
-<Date>2019-09-04</Date>
-<support>https://forums.unraid.net/topic/83221-support-conmyster-zabbix-agent/</support>
-<Description>This container is just the Zabbix Agent for UNRAID. Any Zabbix Server configuration/setup will need to be completed by yourself. &#xD;
-[br]&#xD;
+  <Description>This container is just the Zabbix Agent for UNRAID. Any Zabbix Server configuration/setup will need to be completed by yourself. [br]&#xD;
 To set this container up just edit the following:&#xD;
-"ZBX_HOSTNAME" to your unraid server hostname&#xD;
-"ZBX_SERVER_HOST" to the IP address of your Zabbix Server&#xD;
+"HOSTNAME" to your unraid server hostname&#xD;
+"ZABBIX SERVER/PROXY IP" to the IP address of your Zabbix Server or Proxy&#xD;
 [br]&#xD;
-The max disks supported by UNRAID + cache has been pre-added. (There is no need to remove any disks you do not have)</Description>
+If you would like Zabbix to monitor disks as well as system resources you will need to add each one as a path manually.&#xD;
+Please view the guide available on the forums.</Description>
   <Networking>
     <Mode>host</Mode>
     <Publish/>
   </Networking>
-  <Data>
-    <Volume>
-      <HostDir>/mnt/cache/</HostDir>
-      <ContainerDir>/mnt/cache</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk1</HostDir>
-      <ContainerDir>/mnt/disk1</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk2</HostDir>
-      <ContainerDir>/mnt/disk2</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk3</HostDir>
-      <ContainerDir>/mnt/disk3</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk4</HostDir>
-      <ContainerDir>/mnt/disk4</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk5/</HostDir>
-      <ContainerDir>/mnt/disk5</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk6</HostDir>
-      <ContainerDir>/mnt/disk6</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk7</HostDir>
-      <ContainerDir>/mnt/disk7</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk8</HostDir>
-      <ContainerDir>/mnt/disk8</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk9</HostDir>
-      <ContainerDir>/mnt/disk9</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk10</HostDir>
-      <ContainerDir>/mnt/disk10</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk11</HostDir>
-      <ContainerDir>/mnt/disk11</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk12</HostDir>
-      <ContainerDir>/mnt/disk12</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk13</HostDir>
-      <ContainerDir>/mnt/disk13</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk14</HostDir>
-      <ContainerDir>/mnt/disk14</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk15</HostDir>
-      <ContainerDir>/mnt/disk15</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk16</HostDir>
-      <ContainerDir>/mnt/disk16</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk17</HostDir>
-      <ContainerDir>/mnt/disk17</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk18</HostDir>
-      <ContainerDir>/mnt/disk18</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk19</HostDir>
-      <ContainerDir>/mnt/disk19</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk20</HostDir>
-      <ContainerDir>/mnt/disk20</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk21</HostDir>
-      <ContainerDir>/mnt/disk21</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk22</HostDir>
-      <ContainerDir>/mnt/disk22</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk23</HostDir>
-      <ContainerDir>/mnt/disk23</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk24</HostDir>
-      <ContainerDir>/mnt/disk24</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk25</HostDir>
-      <ContainerDir>/mnt/disk25</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk26</HostDir>
-      <ContainerDir>/mnt/disk26</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk27</HostDir>
-      <ContainerDir>/mnt/disk27</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk28</HostDir>
-      <ContainerDir>/mnt/disk28</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk29</HostDir>
-      <ContainerDir>/mnt/disk29</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/disk30</HostDir>
-      <ContainerDir>/mnt/disk30</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-  </Data>
+  <Data/>
   <Environment>
     <Variable>
-      <Value>ZBX_HOSTNAME</Value>
+      <Value>HOSTNAME</Value>
       <Name>ZBX_HOSTNAME</Name>
       <Mode/>
     </Variable>
     <Variable>
-      <Value>ZBX_SERVER_HOST</Value>
+      <Value>ZABBIX SERVER/PROXY IP</Value>
       <Name>ZBX_SERVER_HOST</Name>
       <Mode/>
     </Variable>
@@ -221,39 +61,8 @@ The max disks supported by UNRAID + cache has been pre-added. (There is no need 
     </Variable>
   </Environment>
   <Labels/>
-  <Config Name="ZBX_HOSTNAME" Target="ZBX_HOSTNAME" Default="" Mode="" Description="Container Variable: ZBX_HOSTNAME" Type="Variable" Display="always" Required="false" Mask="false">ZBX_HOSTNAME</Config>
-  <Config Name="ZBX_SERVER_HOST" Target="ZBX_SERVER_HOST" Default="" Mode="" Description="Container Variable: ZBX_SERVER_HOST" Type="Variable" Display="always" Required="false" Mask="false">ZBX_SERVER_HOST</Config>
+  <Config Name="ZBX_HOSTNAME" Target="ZBX_HOSTNAME" Default="" Mode="" Description="Container Variable: ZBX_HOSTNAME" Type="Variable" Display="always" Required="false" Mask="false">HOSTNAME</Config>
+  <Config Name="ZBX_SERVER_HOST" Target="ZBX_SERVER_HOST" Default="" Mode="" Description="Container Variable: ZBX_SERVER_HOST" Type="Variable" Display="always" Required="false" Mask="false">ZABBIX SERVER/PROXY IP</Config>
   <Config Name="ZBX_TLSCONNECT" Target="ZBX_TLSCONNECT" Default="" Mode="" Description="Container Variable: ZBX_TLSCONNECT" Type="Variable" Display="always" Required="false" Mask="false">unencrypted</Config>
   <Config Name="ZBX_TLSACCEPT" Target="ZBX_TLSACCEPT" Default="" Mode="" Description="Container Variable: ZBX_TLSACCEPT" Type="Variable" Display="always" Required="false" Mask="false">unencrypted</Config>
-  <Config Name="Cache" Target="/mnt/cache" Default="" Mode="ro" Description="Container Path: /mnt/cache" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/</Config>
-  <Config Name="Disk 1" Target="/mnt/disk1" Default="" Mode="ro" Description="Container Path: /mnt/disk1" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1</Config>
-  <Config Name="Disk 2" Target="/mnt/disk2" Default="" Mode="ro" Description="Container Path: /mnt/disk2" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk2</Config>
-  <Config Name="Disk 3" Target="/mnt/disk3" Default="" Mode="ro" Description="Container Path: /mnt/disk3" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk3</Config>
-  <Config Name="Disk 4" Target="/mnt/disk4" Default="" Mode="ro" Description="Container Path: /mnt/disk4" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk4</Config>
-  <Config Name="Disk 5" Target="/mnt/disk5" Default="" Mode="ro" Description="Container Path: /mnt/disk5" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk5/</Config>
-  <Config Name="Disk 6" Target="/mnt/disk6" Default="" Mode="ro" Description="Container Path: /mnt/disk6" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk6</Config>
-  <Config Name="Disk 7" Target="/mnt/disk7" Default="" Mode="ro" Description="Container Path: /mnt/disk7" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk7</Config>
-  <Config Name="Disk 8" Target="/mnt/disk8" Default="" Mode="ro" Description="Container Path: /mnt/disk8" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk8</Config>
-  <Config Name="Disk 9" Target="/mnt/disk9" Default="" Mode="ro" Description="Container Path: /mnt/disk9" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk9</Config>
-  <Config Name="Disk 10" Target="/mnt/disk10" Default="" Mode="ro" Description="Container Path: /mnt/disk10" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk10</Config>
-  <Config Name="Disk 11" Target="/mnt/disk11" Default="" Mode="ro" Description="Container Path: /mnt/disk11" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk11</Config>
-  <Config Name="Disk 12" Target="/mnt/disk12" Default="" Mode="ro" Description="Container Path: /mnt/disk12" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk12</Config>
-  <Config Name="Disk 13" Target="/mnt/disk13" Default="" Mode="ro" Description="Container Path: /mnt/disk13" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk13</Config>
-  <Config Name="Disk 14" Target="/mnt/disk14" Default="" Mode="ro" Description="Container Path: /mnt/disk14" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk14</Config>
-  <Config Name="Disk 15" Target="/mnt/disk15" Default="" Mode="ro" Description="Container Path: /mnt/disk15" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk15</Config>
-  <Config Name="Disk 16" Target="/mnt/disk16" Default="" Mode="ro" Description="Container Path: /mnt/disk16" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk16</Config>
-  <Config Name="Disk 17" Target="/mnt/disk17" Default="" Mode="ro" Description="Container Path: /mnt/disk17" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk17</Config>
-  <Config Name="Disk 18" Target="/mnt/disk18" Default="" Mode="ro" Description="Container Path: /mnt/disk18" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk18</Config>
-  <Config Name="Disk 19" Target="/mnt/disk19" Default="" Mode="ro" Description="Container Path: /mnt/disk19" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk19</Config>
-  <Config Name="Disk 20" Target="/mnt/disk20" Default="" Mode="ro" Description="Container Path: /mnt/disk20" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk20</Config>
-  <Config Name="Disk 21" Target="/mnt/disk21" Default="" Mode="ro" Description="Container Path: /mnt/disk21" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk21</Config>
-  <Config Name="Disk 22" Target="/mnt/disk22" Default="" Mode="ro" Description="Container Path: /mnt/disk22" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk22</Config>
-  <Config Name="Disk 23" Target="/mnt/disk23" Default="" Mode="ro" Description="Container Path: /mnt/disk23" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk23</Config>
-  <Config Name="Disk 24" Target="/mnt/disk24" Default="" Mode="ro" Description="Container Path: /mnt/disk24" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk24</Config>
-  <Config Name="Disk 25" Target="/mnt/disk25" Default="" Mode="ro" Description="Container Path: /mnt/disk25" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk25</Config>
-  <Config Name="Disk 26" Target="/mnt/disk26" Default="" Mode="ro" Description="Container Path: /mnt/disk26" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk26</Config>
-  <Config Name="Disk 27" Target="/mnt/disk27" Default="" Mode="ro" Description="Container Path: /mnt/disk27" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk27</Config>
-  <Config Name="Disk 28" Target="/mnt/disk28" Default="" Mode="ro" Description="Container Path: /mnt/disk28" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk28</Config>
-  <Config Name="Disk 29" Target="/mnt/disk29" Default="" Mode="ro" Description="Container Path: /mnt/disk29" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk29</Config>
-  <Config Name="Disk 30" Target="/mnt/disk30" Default="" Mode="ro" Description="Container Path: /mnt/disk30" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk30</Config>
 </Container>
